@@ -10,7 +10,7 @@ const Features = () => {
                 featuredProducts.map((item) =>
                 
                 
-                <div className={styles.singleitem}>
+                <div className={styles.singleitem} key={item.id}>
                 <div className={styles.image}>
                     {item.img && <Image className={styles.img} fill src={item.img} alt="" />}
                 </div>
