@@ -13,7 +13,7 @@ const Cart = () =>  {
             <h1 className="uppercase text-xl font-bold">sicilian</h1>
             <span>Large</span>
           </div>
-          <h2 className="font-bold">79.90</h2>
+          <h2 className="font-bold">₹ 249</h2>
           <span className="cursor-pointer">X</span>
         </div>
         
@@ -23,7 +23,7 @@ const Cart = () =>  {
             <h1 className="uppercase text-xl font-bold">sicilian</h1>
             <span>Large</span>
           </div>
-          <h2 className="font-bold">79.90</h2>
+          <h2 className="font-bold">₹ 249</h2>
           <span className="cursor-pointer">X</span>
         </div>
         
@@ -31,12 +31,12 @@ const Cart = () =>  {
       {/* PAYMENT CONTAINER */}
       <div className={styles.payment}>
         <div className={styles.single}>
-          <span className="">Subtotal (3 items)</span>
-          <span className="">$81.70</span>
+          <span className="">Subtotal (2 items)</span>
+          <span className="">₹ 498</span>
         </div>
         <div className={styles.single}>
           <span className="">Service Cost</span>
-          <span className="">$0.00</span>
+          <span className="">₹ 0</span>
         </div>
         <div className={styles.single}>
           <span className="">Delivery Cost</span>
@@ -45,7 +45,7 @@ const Cart = () =>  {
         <hr className="my-2" />
         <div className={styles.single}>
           <span className="">TOTAL(INCL. VAT)</span>
-          <span className="font-bold">$81.70</span>
+          <span className="font-bold">₹ 498</span>
         </div>
         <button className="bg-red-500 text-white p-3 rounded-md w-1/2 self-end">
           CHECKOUT
