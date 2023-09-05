@@ -15,7 +15,7 @@ type Product = {
       title: "Sicilian",
       desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
       img: "/temporary/p3.png",
-      price: 100,
+      price: 249,
       options: [
         {
           title: "Small",
@@ -150,11 +150,11 @@ type Product = {
         },
         {
           title: "Medium",
-          additionalPrice: 4,
+          additionalPrice: 45,
         },
         {
           title: "Large",
-          additionalPrice: 6,
+          additionalPrice: 66,
         },
       ],
     },
@@ -295,7 +295,7 @@ type Product = {
       title: "Veggie Supreme",
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
       img: "/temporary/p11.png",
-      price: 24.9,
+      price: 249,
       options: [
         {
           title: "Small",
