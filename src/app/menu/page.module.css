@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    height: calc(100vh - 7rem);
+    flex-direction:column;
+    padding: 10px;
+
+}
+.link{
+    width: 100vw;
+    height: 33vh;
+    background-size: cover; 
+    padding: 8px;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        flex-direction:row;
+        align-items: center;
+    }
+    .link{
+        height: 50vh;
+    }
+}

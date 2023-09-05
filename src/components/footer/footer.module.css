@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    height: 12px;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dot{
+    color: red;
+}
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 15px;
+
+    }
+}
+@media screen and (min-width: 1280px){
+    .container{
+        padding:20px 50px;
+        
+    }
+}

@@ -1,0 +1,49 @@
+.container{
+    display: flex; 
+flex-direction: column;  
+
+height: calc(100vh- 7rem);
+
+}
+.productContainer{
+    display: flex; 
+overflow: scroll; 
+padding: 5px; 
+height: 50vh; 
+
+
+}
+
+.singleitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom:10px;
+}
+.payment{
+
+    display: flex;
+    height:50vh;
+    flex-direction: column;
+    gap: 25px;
+    padding: 5px;
+}
+.single{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 768px) { 
+    .container{
+        flex-direction: row; 
+    }
+
+    .payment{
+        flex: 1;
+        height: 100vh;
+    
+    }
+
+ }
+
+

@@ -1,0 +1,40 @@
+.container{
+    display: flex; 
+padding: 0.75rem; 
+justify-content: space-between; 
+align-items: center; 
+border-bottom-width: 2px; 
+height: 3rem; 
+font-weight: 700; 
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dot{
+    color:red;
+}
+.desktopmenu{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .menu{
+        display: none;
+    }
+    .desktopmenu{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+    }
+    .logo{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .container{
+        padding:20px 50px;
+        
+    }
+}

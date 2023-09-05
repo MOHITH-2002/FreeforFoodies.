@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    position: relative;
+    height: 80vh;
+    width:100%;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.google{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    font-size: 25px;
+    border: 1px solid  black;
+
+}
+@media screen and (min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+    .image{
+        flex: 1;
+    }
+    .login{
+        flex: 1;
+    }
+    .logo{
+        width:max-content
+    }
+    .title{
+        font-size: 50px;
+    }
+}

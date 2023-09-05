@@ -1,0 +1,14 @@
+.menu{
+background-color: red;
+position: absolute;
+left: 0;
+display: flex;
+top: 7rem; 
+width: 100%;
+height: calc(100vh - 7rem);
+gap: 20px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+z-index: 100;
+}
